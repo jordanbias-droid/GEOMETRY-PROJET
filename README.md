@@ -36,13 +36,9 @@ Ce projet nécessite un compilateur C++ supportant C++11 ou supérieur.
 Pour compiler, vous devez lier tous les fichiers d'implémentation (.cpp):
 bash
 
-# Exemple avec g++ (en supposant point.cpp et vector.cpp existent)
-g++ main.cpp geometry/point.cpp geometry/vector.cpp -o GeometryApp
-
 # Exécution
 ./GeometryApp
 
-Utilisez le code avec précaution.
 Exemple d'utilisation (Extrait de main.cpp)
 Le fichier main.cpp inclus fournit un exemple complet montrant l'utilisation de toutes les fonctions principales :
 cpp
